@@ -1,0 +1,35 @@
+* { 
+    margin: 0;
+    padding: 0;
+}
+
+.clearFix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.clearFix {
+    display: block;
+}
+
+ul {
+    position: relative;
+    left: 400px;
+    bottom: 30px;
+}
+
+li {
+    display: $inblock;
+}
+
+h3 {
+    color: $lightBlue;
+}
+
+p {
+    color: $gray;
+}

@@ -1,0 +1,36 @@
+.wrapper {
+	margin: 0 auto;
+	width: 1020px;
+}
+
+.header {
+    height: 100px;
+}
+
+.menu {
+    text-decoration: none;
+    color: $white;
+    padding-right: 30px;
+}
+
+.box {
+    height: 155px;
+    width: 300px;
+    background-color: $white;
+    display: $inblock;
+    position: relative;
+    left: 590px;
+    bottom: 240px;
+    padding: 10px;
+}
+
+.post {
+    height: 400px;
+}
+
+.subPost {
+    width: 320px;
+    height: 324px;
+    display: $inblock;
+    margin: 0 1px;
+}
