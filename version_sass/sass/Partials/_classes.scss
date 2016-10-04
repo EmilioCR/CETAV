@@ -1,0 +1,27 @@
+.info {
+	margin: 20px 0 20px 0;
+}
+
+.post {
+    margin: 150px 50px 0 50px;
+}
+
+.titulos {
+    display: inline-block;
+    border-right: 1px solid black;
+    height: $size;
+    width: $size;
+    margin: 30px 0 30px 0;
+}
+
+.posts {
+    display: inline-table;
+    padding-left: 30px;
+    width: 500px;
+    margin-bottom: 20px; 
+}
+
+.subTitles {
+    font-size: 15px;
+    color: $gray;
+}
