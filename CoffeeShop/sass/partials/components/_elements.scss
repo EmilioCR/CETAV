@@ -1,0 +1,48 @@
+//-----------------------------Header--------------------------------
+
+.left-arrow {
+	background: url(../img/left-arrow.png) no-repeat;
+	position: relative;
+	top: 140px;
+	right: 111px;
+};
+
+.read {
+	color: #5c5a5a;
+	font-size: 13px;
+	padding: 0;
+};
+
+.coffee {
+    float: right;
+    position: relative;
+    top: 70px;
+    right: 70px;
+};
+
+.right-arrow {
+	background: url(../img/right-arrow.png) no-repeat;
+	position: relative;
+	top: 140px;
+	left: 804px;
+};
+
+.color-brown {
+	background-color: #523728;
+	width: 10px;
+	height: 10px;
+	position: relative;
+	top: 217px;
+	border-radius: 50%;
+	display: inline-block;
+};
+
+.color-gray {
+	background-color: #c4c4c4;
+	width: 10px;
+	height: 10px;
+	position: relative;
+	top: 217px;
+	border-radius: 50%;
+	display: inline-block;
+};

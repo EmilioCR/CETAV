@@ -1,0 +1,21 @@
+.wrapper {
+	margin: 0 auto;
+	width: 980px;
+};
+
+ul {
+	list-style: none;
+	display: flex;
+};
+
+li {
+	padding: 14px;
+	border-left: 1px solid #e0e0e0;
+};
+
+a {
+	text-decoration: none;
+	color: #a4a3a3;
+	padding: 15px;
+	font-size: 10px;
+};
