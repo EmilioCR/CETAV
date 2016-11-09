@@ -1,6 +1,5 @@
 //-----------------------------Header--------------------------------
 .back-header {
-	height: 420px;
 	background-color: $background-header;
 	border-top: 10px solid #523728;
 };
@@ -8,15 +7,19 @@
 .front-header {
 	padding: 40px 11px 25px;
 	height: 355px;
+	position: relative;
 };
 
-.home-menu {
-	width: 525px;
+.home-menu {	    
+	width: 61.25%;
+    max-width: 62.25%;
+    min-width: 61.25%;
 	background-color: $background-home;
 	height: 50px;
 	border-radius: 34px;
 	float: right;
 	text-align: center;
+	contain: content;
 };
 
 //-----------------------------Main Part-------------------------------
@@ -30,6 +33,11 @@
 
 .left {
 	float: right;
+};
+
+.right-wrapper {
+	margin: 0 auto;
+	width: 100%;
 };
 
 .right-post {
@@ -47,6 +55,10 @@
 .photos-gallery {
 	height: 511px;
 	padding-bottom: 150px;
+};
+
+.first-photos, .second-photos {
+	text-align: center;
 };
 
 //-----------------------------Footer Part-------------------------------

@@ -2,7 +2,7 @@
 .title-header {
 	color: #8b8a8b;
 	font-family: $font-text;
-	width: 410px;
+	width: 35%;
 	height: 102px;
 	display: inline-block;
 	position: relative;
@@ -22,11 +22,11 @@
 //-----------------------------Service Part--------------------------------
 
 .taste, .choice, .service {
-    width: 287px;
+    width: 29.7%;
     display: inline-block;
     height: 300px;
     text-align: center;
-    margin: 100px 17px 0 20px;
+    margin: 10% 0.7% 0 2.2%;
 
 	h2, p {
 		margin-top: 15px;
@@ -46,16 +46,16 @@
 
 .right {
 	width: 50%;
-	padding: 60px;
+	padding: 4%;
 
 	p {
-		padding: 20px 0;
+		padding: 2% 0;
 	};
 };
 
 
 .read-button {
-	width: 89px;
+	width: 16.9%;
 	height: 35px;
 	background-color: #fff;
 	border-radius: 5px;
@@ -84,10 +84,10 @@
 //-----------------------------Footer Part-------------------------------
 
 .part-footer{
-	width: 210px;
-	color: #fff;
-	padding: 15px;
-	display: inline-table;
+    width: 21.1%;
+    color: #fff;
+    padding: 0.5%;
+    display: inline-table;
 	
 	p , h3 {
 		font-family: $font-text;

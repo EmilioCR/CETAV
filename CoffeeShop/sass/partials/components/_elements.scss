@@ -22,17 +22,22 @@
 
 .right-arrow {
 	background: url(../img/right-arrow.png) no-repeat;
-	position: relative;
-	top: 140px;
-	left: 804px;
+	position: absolute;
+    top: 180px;
+    right: 0;
 };
+
+.circles {
+	width: 5%;
+	position: absolute;
+    bottom: 0;
+    right: 50%;
+}
 
 .color-brown {
 	background-color: #523728;
 	width: 10px;
 	height: 10px;
-	position: relative;
-	top: 217px;
 	border-radius: 50%;
 	display: inline-block;
 };
@@ -41,8 +46,6 @@
 	background-color: #c4c4c4;
 	width: 10px;
 	height: 10px;
-	position: relative;
-	top: 217px;
 	border-radius: 50%;
 	display: inline-block;
 };
