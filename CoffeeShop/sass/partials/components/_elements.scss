@@ -9,40 +9,77 @@
 
 .read {
 	color: #5c5a5a;
-	font-size: 13px;
+	font-size: 0.8125em;
 	padding: 0;
 };
 
 .coffee {
-    float: right;
-    position: relative;
-    top: 70px;
-    right: 70px;
+	float: right;
+    position: absolute;
+    width: 19.125em;
+    bottom: 5em;
+    right: 5em;
 };
 
 .right-arrow {
-	background: url(../img/right-arrow.png) no-repeat;
-	position: relative;
-	top: 140px;
-	left: 804px;
+    background: url(../img/right-arrow.png) no-repeat;
+    position: absolute;
+    top: 218px;
+    right: 0;
+};
+
+.circles {
+	width: 50em;
+    bottom: 0;
+    left: 29em;
+    position: absolute;
 };
 
 .color-brown {
 	background-color: #523728;
-	width: 10px;
-	height: 10px;
-	position: relative;
-	top: 217px;
+	width: 0.625em;
+	height: 0.625em;
+	border-radius: 50%;
+	display: inline-block;
+};
+
+.color-brown2 {
+	background-color: #523728;
+	width: 0.625em;
+	height: 0.625em;
 	border-radius: 50%;
 	display: inline-block;
 };
 
 .color-gray {
 	background-color: #c4c4c4;
-	width: 10px;
-	height: 10px;
-	position: relative;
-	top: 217px;
+	width: 0.625em;
+	height: 0.625em;
 	border-radius: 50%;
 	display: inline-block;
 };
+//-----------------------------Photos-----------------------
+
+.coffee-shop {
+	width: 33.6875em;
+}
+
+.photo1, .photo4, .photo5 {
+	width: 20.5em;
+}
+
+.photo2 {
+	width: 20.4375em;
+}
+
+.photo3 {
+	width: 19.8125em;
+}
+
+.photo6 {
+	width: 19.75em;
+}
+
+
+
+

@@ -1,20 +1,20 @@
 //-----------------------------Header--------------------------------
 .back-header {
-	height: 420px;
 	background-color: $background-header;
-	border-top: 10px solid #523728;
+	border-top: 0.625em solid #523728;
 };
 
 .front-header {
-	padding: 40px 11px 25px;
-	height: 355px;
+    padding: 2.5em 0.6875em 1.5625em;
+    height: 22.1875em;
+    position: relative;
 };
 
 .home-menu {
-	width: 525px;
+	width: 32.8125em;
 	background-color: $background-home;
-	height: 50px;
-	border-radius: 34px;
+	height: 3.125em;
+	border-radius: 2.125em;
 	float: right;
 	text-align: center;
 };
@@ -22,7 +22,7 @@
 //-----------------------------Main Part-------------------------------
 
 .left-post {
-	height: 411px;
+	height: 25.6875em;
 	background-color: $background-left;
 	display: inline-block;
 	width: 50%;
@@ -33,25 +33,25 @@
 };
 
 .right-post {
-	height: 411px;
+	height: 25.6875em;
 	background-color: $background-right;
 	display: inline-block;
 	width: 50%;
 	float: right;
 	color: #fff;
 	font-family: $font-text;
+	position: relative;
 };
 
 //-----------------------------Gallery Part-------------------------------
 
 .photos-gallery {
-	height: 511px;
-	padding-bottom: 150px;
+	height: 31.9375em;
+	padding-bottom: 9.375em;
 };
 
 //-----------------------------Footer Part-------------------------------
 
 .back-footer {
-	height: 230px;
 	background-color: $background-footer;
 };
